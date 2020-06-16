@@ -1,0 +1,11 @@
+export enum PropertyCondition {
+    REMODELED = 'REMODELED', 
+    NOT_REMODELED = 'NOT_REMODELED', 
+    PARTIALLY_REMODELED = 'PARTIALLY_REMODELED'
+}
+
+export enum PropertyStatus {
+    AVAILABLE = 'AVAILABLE',
+    UNDER_CONTRACT = 'UNDER_CONTRACT',
+    RECENTLY_SOLD = 'RECENTLY_SOLD'
+}
