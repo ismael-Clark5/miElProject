@@ -8,6 +8,7 @@ export class Property extends BaseEntity {
 
     @Column()
     address: string;
+    
     @Column() 
     listing_price: number;
 
